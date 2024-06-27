@@ -1,0 +1,41 @@
+.navbar-styled {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: large;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    span {
+        position: relative;
+        height: 35px;
+        width: 35px;
+        background-color: var(--gradient);
+        cursor: pointer;
+    }
+    .user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        position: relative;
+        background-color: var(--gradient);
+        margin-bottom: 10px;
+    }
+    span img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .user img{
+        position: relative;
+        height: 35px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
